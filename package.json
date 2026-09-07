@@ -1,16 +1,16 @@
 {
-    "name": "vscode-emacs-friendly",
-    "displayName": "Emacs Friendly Keymap",
+    "name": "vscode-emacs-edt",
+    "displayName": "Emacs Keymap with EDT keypad",
     "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
     "icon": "emacs_pacifica.png",
-    "version": "0.9.0",
-    "publisher": "lfs",
-    "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
+    "version": "0.9.1",
+    "publisher": "Software Farmers",
+    "homepage": "https://github.com/Bergandi/vscode-emacs-edt",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebastianZaha/vscode-emacs-friendly"
+        "url": "https://github.com/Bergandi/vscode-emacs-edt"
     },
-    "bugs": "https://github.com/SebastianZaha/vscode-emacs-friendly/issues",
+    "bugs": "https://github.com/Bergandi/vscode-emacs-edt/issues",
     "engines": {
         "vscode": "^1.30.0"
     },

@@ -1,3 +1,6 @@
+## 0.9.1 (2026-08-26)
+- Added support for EDT keypad editing
+
 ## 0.9.0 (2019-05-06)
 - Fixed focus and movement keys interaction when find widget is open
 - Fixed movement keys in terminal
