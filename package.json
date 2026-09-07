@@ -30,7 +30,30 @@
     ],
 	"main": "./out/src/extension.js",
     "contributes": {
+        "commands": [
+            {
+                "command": "edtKeypad.wake",
+                "title": "EDT: Wake Up Keypad Engine"
+            }
+        ],
         "keybindings": [
+            { "key": "numpad_divide", "command": "edtKeypad.gold", "when": "editorTextFocus" },
+            { "key": "numpad0", "command": "edtKeypad.kp0", "when": "editorTextFocus" },
+            { "key": "numpad1", "command": "edtKeypad.kp1", "when": "editorTextFocus" },
+            { "key": "numpad2", "command": "edtKeypad.kp2", "when": "editorTextFocus" },
+            { "key": "numpad3", "command": "edtKeypad.kp3", "when": "editorTextFocus" },
+            { "key": "numpad4", "command": "edtKeypad.kp4", "when": "editorTextFocus" },
+            { "key": "numpad5", "command": "edtKeypad.kp5", "when": "editorTextFocus" },
+            { "key": "numpad6", "command": "edtKeypad.kp6", "when": "editorTextFocus" },
+            { "key": "numpad7", "command": "edtKeypad.kp7", "when": "editorTextFocus" },
+            { "key": "numpad8", "command": "edtKeypad.kp8", "when": "editorTextFocus" },
+            { "key": "numpad9", "command": "edtKeypad.kp9", "when": "editorTextFocus" },
+            { "key": "numpad_subtract", "command": "edtKeypad.kpsub", "when": "editorTextFocus" },
+            { "key": "numpad_add", "command": "edtKeypad.kpadd", "when": "editorTextFocus" },
+            { "key": "numpad_decimal", "command": "edtKeypad.kpdot", "when": "editorTextFocus" },
+            { "key": "numpad_enter", "command": "edtKeypad.kpenter", "when": "editorTextFocus" },
+            { "key": "numpad_multiply", "command": "edtKeypad.pf3", "when": "editorTextFocus" },
+            { "key": "ctrl+numpad_add", "command": "edtKeypad.ctrladd", "when": "editorTextFocus && !editorReadonly" },
             {
                 "key": "right",
                 "command": "emacs.cursorRight",
